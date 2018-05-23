@@ -19,6 +19,7 @@ int main()
 
 	printf("%d\n",sizeof(s));
 	 s= new STRU;
+	a=s;
 	 printf("s %#x\n", (unsigned int)&s);
 	s->data = 10;
 	char c;
