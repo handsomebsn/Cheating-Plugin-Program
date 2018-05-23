@@ -37,4 +37,4 @@ int main()
 	delete s;
     return 0;
 }
-
+//如果上面不定义s，直接STRU *a=new STRU;那么我们找的数据就不存在基地址了
